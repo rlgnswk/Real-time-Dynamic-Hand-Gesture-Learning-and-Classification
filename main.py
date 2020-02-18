@@ -6,11 +6,11 @@ Created on Mon Jan 27 19:38:18 2020
 """
 
 import tkinter
-import class_GUI_practice as MyGUI_G
-import class_GUI_practice_motion as MyGUI_M
+import class_GUI_static as MyGUI_s
+import class_GUI_dynamic as MyGUI_d
 
-#root = MyGUI_G.Myapp(tkinter.Tk())
-root = MyGUI_M.Myapp(tkinter.Tk())
+#root = MyGUI_s.Myapp(tkinter.Tk())
+root = MyGUI_d.Myapp(tkinter.Tk())
 
 
 
