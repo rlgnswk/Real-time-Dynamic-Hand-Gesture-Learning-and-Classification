@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan 30 14:50:01 2020
-
 @author: rlgns
 """
 
@@ -9,7 +8,6 @@ Created on Thu Jan 30 14:50:01 2020
 HGU
 CSEE
 KGH
-
 Fuzzy art + map
 '''
 
@@ -27,11 +25,13 @@ class Fuzzy_ARTMAP():
         self.threshold = threshold
         self.w_list = w_list
         self.label_list = label_list
+        
     #convert input to elementwise complement
     def complement_coding(self, input_vector):
         #normalization_vector(input_vector) 
         complement_vector = [1-i for i in input_vector]
         return complement_vector
+    
     #concat the input and complemented input for artmap input
     def make_input_x(self, input_i):
         return input_i + self.complement_coding(input_i)
@@ -71,8 +71,9 @@ class Fuzzy_ARTMAP():
             x_w =self.component_wise_min(input_x , self.w_list[index])
             # matching template and label
             if self.label_list[index] == label:
-                matching_bool = ((self.M - sum(x_w))<=(self.M-self.threshold))
-                if matching_bool == True : # if matching is true, extend that w-th boundary 
+                #matching_bool = ((self.M - sum(x_w))<=(self.M*(1-self.threshold)))
+                #if matching_bool == True : # if matching is true, extend that w-thboundary 
+                if (self.M - sum(x_w))<=(self.M*(1-self.threshold)):
                     self.w_list[index] = self.component_wise_min(input_x, self.w_list[index]) # template learning
                     #print("template learning",  self.w_list )
                     #print("Related template:", self.w_list[index]  )
@@ -97,8 +98,17 @@ class Fuzzy_ARTMAP():
         input_x = self.make_input_x(input_i)
         # select max choice Function value
         choice_list = [self.choice_function(input_x, w) for w in self.w_list]
-
-        return self.label_list[choice_list.index(max(choice_list))]
+        try:
+            choice_max = max(choice_list)
+        except ValueError:
+            return 0
+    
+        if choice_max < self.M*(1-self.threshold) :
+            return 0
+            #return None
+        else:
+            return self.label_list[choice_list.index(choice_max)]
+        #return self.label_list[choice_list.index(max(choice_list))]
 
         
         
@@ -112,17 +122,20 @@ class Fuzzy_ARTMAP():
         
     def plot_ART(self):
         pass   
-    # Reset the ARTMAP elements   
+    # Reset the ARTMAP elements 
+    
     def Reset(self):
         self.w_list = []
         self.label_list = []
         return print("Reset the all of templates and labels")
+    
     # save the label list and w list
     def Save(self, path = os.getcwd()):
         #np_label = np.asarray(self.label_list)
         #np_w = np.asarray(self.w_list)
         np.save(path+"\\label_info.npy",self.label_list)
-        np.save(path+"\\template_info.npy",self.w_list)        
+        np.save(path+"\\template_info.npy",self.w_list)
+        
     # load the label list and w list    
     def Load(self, path = os.getcwd()):
         self.label_list = np.load(path+"\\label_info.npy").tolist()
