@@ -103,7 +103,7 @@ class Fuzzy_ARTMAP():
         except ValueError:
             return 0
     
-        if choice_max < self.M*(1-self.threshold) :
+        if choice_max < 2.0 :
             return 0
             #return None
         else:
