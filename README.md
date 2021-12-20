@@ -1,6 +1,32 @@
-# project_316
-# CSEE
-# HGU
+# Fuzzy ARTMAP 을 이용한  Dynamic Hand Gesture 실시간 학습 및 인식
+# HGU CSEE project 316
+# (Only Korean)
+
+
+
+## Method
+
+![figures](./figs/figures.png)
+
+
+
+![equation](./figs/equation.png)
+
+
+
+# Results(Hand shape)
+
+![hand_shape](./figs/hand_shape.png)
+
+## Results(Hand shape)
+
+![hand_position](./figs/hand_position.png)
+
+
+
+
+
+# Comment
 
 Fuzzy ARTMAP을 이용한 Dynamic Hand Gesture 실시간 학습 및 인식
 
