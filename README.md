@@ -13,11 +13,13 @@
 
 ## Results(Hand shape)
 You can find the test video(Hand shape) from [Here](https://www.youtube.com/watch?v=H2nVC2lFWjI)
+
 <img src="./figs/hand_shape.png" width="700" />
 
 
 ## Results(Hand Position)
 You can find the test video(Hand Position) from [Here](https://www.youtube.com/watch?v=nz32D1FPceo)
+
 <img src="./figs/hand_position.png" width="700" />
 
 
@@ -28,8 +30,11 @@ You can find the test video(Hand Position) from [Here](https://www.youtube.com/w
 Fuzzy ARTMAP을 이용한 Dynamic Hand Gesture 실시간 학습 및 인식
 
 -class_ARTAMP.py
+
 -class_GUI_dynamic.py
+
 -class_server.py
+
 -main.py
 
 (카메라 센서 코드는 업로드 하지 않음)
