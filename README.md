@@ -13,13 +13,13 @@
 
 ## Results(Hand shape)
 You can find the test video(Hand shape) from [Here](https://www.youtube.com/watch?v=H2nVC2lFWjI)
-!<img src="./figs/hand_shape.png" width="600" />
-![hand_shape](./figs/hand_shape.png)
+<img src="./figs/hand_shape.png" width="700" />
+
 
 ## Results(Hand Position)
 You can find the test video(Hand Position) from [Here](https://www.youtube.com/watch?v=nz32D1FPceo)
-!<img src="./figs/hand_position.png" width="600" />
-![hand_position](./figs/hand_position.png)
+<img src="./figs/hand_position.png" width="700" />
+
 
 
 
