@@ -6,8 +6,10 @@
 
 ## Method
 
-![figures](./figs/figures.png)
-![equation](./figs/equation.png)
+<p float="left">
+  <img src="./figs/figures.png" width="600" />
+  <img src="./figs/equation.png" width="300" /> 
+</p>
 
 ## Results(Hand shape)
 You can find the test video(Hand shape) from [Here](https://www.youtube.com/watch?v=H2nVC2lFWjI)
