@@ -1,4 +1,4 @@
-# Fuzzy ARTMAP 을 이용한  Dynamic Hand Gesture 실시간 학습 및 인식
+# Real-time Dynamic Hand Gesture Learning and Classification using Fuzzy ARTMAP
 # HGU CSEE project 316
 ```The all materials are provided in Korean```
 
