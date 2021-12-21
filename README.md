@@ -2,6 +2,12 @@
 # HGU CSEE project 316
 ```The all materials are provided in Korean```
 
+## Abstract
+Previously proposed models for time series data such as RNN and LSTM have limitations in learning
+new categories in real time. This paper uses Fuzzy ARTMAP, which enables a model to quickly learn new
+categories with a small amount of computation time. In addition, This paper proposes a method for converting
+static hand joint data into dynamic information for learning and classifying dynamic hand gestures
+
 [Paper](https://github.com/rlgnswk/project_316/blob/master/Paper/(Korean)Fuzzy%20ARTMAP%EC%9D%84_%EC%9D%B4%EC%9A%A9%ED%95%9C_Dynamic_Hand_Gesture_%EC%8B%A4%EC%8B%9C%EA%B0%84_%ED%95%99%EC%8A%B5_%EB%B0%8F_%EC%9D%B8%EC%8B%9D.pdf) ([ICROS 2020](http://2020.icros.org/?page_id=61), Best undergraduate paper)
 
 [Presentation](https://www.youtube.com/watch?v=3Ba6yfdvaHw)
@@ -24,8 +30,8 @@ You can find the test video(Hand Position) from [Here](https://www.youtube.com/w
 
 <img src="./figs/hand_position.png" width="700" />
 
-
-
+## Fuzzy ARTAMP Tuturial
+You can learn the process of Fuzzy ARTAMP algorithm from [Fuzzy ARTAMP Tuturial](https://github.com/rlgnswk/project_316/blob/master/ARTMAP%20Test%20Code.ipynb)
 
 # Comment
 
