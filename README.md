@@ -2,7 +2,7 @@
 # HGU CSEE project 316
 ```The all materials are provided in Korean```
 
-[Paper](https://github.com/rlgnswk/project_316/blob/master/Paper/(Korean)Fuzzy%20ARTMAP%EC%9D%84_%EC%9D%B4%EC%9A%A9%ED%95%9C_Dynamic_Hand_Gesture_%EC%8B%A4%EC%8B%9C%EA%B0%84_%ED%95%99%EC%8A%B5_%EB%B0%8F_%EC%9D%B8%EC%8B%9D.pdf) (ICROS 2020, Best undergraduate paper)
+[Paper](https://github.com/rlgnswk/project_316/blob/master/Paper/(Korean)Fuzzy%20ARTMAP%EC%9D%84_%EC%9D%B4%EC%9A%A9%ED%95%9C_Dynamic_Hand_Gesture_%EC%8B%A4%EC%8B%9C%EA%B0%84_%ED%95%99%EC%8A%B5_%EB%B0%8F_%EC%9D%B8%EC%8B%9D.pdf) ([ICROS 2020](http://2020.icros.org/?page_id=61), Best undergraduate paper)
 
 [Presentation](https://www.youtube.com/watch?v=3Ba6yfdvaHw)
 
