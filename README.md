@@ -9,7 +9,7 @@ static hand joint data into dynamic information for learning and classifying dyn
 
 [Paper](https://github.com/rlgnswk/project_316/blob/master/Paper/(Korean)Fuzzy%20ARTMAP%EC%9D%84_%EC%9D%B4%EC%9A%A9%ED%95%9C_Dynamic_Hand_Gesture_%EC%8B%A4%EC%8B%9C%EA%B0%84_%ED%95%99%EC%8A%B5_%EB%B0%8F_%EC%9D%B8%EC%8B%9D.pdf) ([ICROS 2020](http://2020.icros.org/?page_id=61), Best undergraduate paper)
 
-[Presentation](https://www.youtube.com/watch?v=3Ba6yfdvaHw)
+[Presentation](https://www.youtube.com/watch?v=pDZvLuCIeUw)
 
 ## Method
 
@@ -19,13 +19,13 @@ static hand joint data into dynamic information for learning and classifying dyn
 </p>
 
 ## Results(Hand shape)
-You can find the test video(Hand shape) from [Here](https://www.youtube.com/watch?v=H2nVC2lFWjI)
+You can find the test video(Hand shape) from [Here](https://www.youtube.com/watch?v=IQ4vNb7NVwM)
 
 <img src="./figs/hand_shape.png" width="700" />
 
 
 ## Results(Hand Position)
-You can find the test video(Hand Position) from [Here](https://www.youtube.com/watch?v=nz32D1FPceo)
+You can find the test video(Hand Position) from [Here](https://www.youtube.com/watch?v=fhKNmABm1jc)
 
 <img src="./figs/hand_position.png" width="700" />
 
