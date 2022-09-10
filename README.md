@@ -31,6 +31,7 @@ You can find the test video(Hand Position) from [Here](https://www.youtube.com/w
 
 ## Fuzzy ARTAMP Tuturial
 You can learn the process of Fuzzy ARTAMP algorithm from [Fuzzy ARTAMP Tuturial](https://github.com/rlgnswk/project_316/blob/master/ARTMAP%20Test%20Code.ipynb)
+You also can watch the [videos](https://www.youtube.com/watch?v=Q0Vhdjp0yRA&list=PLoJdZ7VvEiRPu8w0cRiwy6-NLuYOfD-n9&index=5) for this algorithm (Korean)
 
 # Comment
 
